@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar/Navbar'
 
 function RootLayout() {
     return (
-        <div className="grid grid-cols-12 relative bg-neutral-900 ">
+        <div className="grid grid-cols-[min-content_auto] relative bg-neutral-900 ">
             <Navbar />
-            <main className="col-span-11">
+            <main className="">
                 <Outlet />
             </main>
         </div>
