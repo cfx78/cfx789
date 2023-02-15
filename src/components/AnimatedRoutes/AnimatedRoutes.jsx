@@ -10,11 +10,11 @@ import Projects from '../../pages/Projects/Projects'
 const AnimatedRoutes = () => {
     const location = useLocation()
     return (
-        <AnimatePresence>
-            <Routes>
+        <AnimatePresence mode={'wait'}>
+            <Routes location={location} key={location.pathname}>
                 <Route
-                    location={location}
-                    key={location.pathname}
+                    // location={location}
+                    // key={location.pathname}
                     path="/"
                     element={<RootLayout />}
                 >

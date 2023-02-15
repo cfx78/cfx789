@@ -3,10 +3,10 @@ import { motion as m } from 'framer-motion'
 const Projects = () => {
     return (
         <m.div
-            initial={{ y: '100%' }}
-            animate={{ y: '0%' }}
-            transition={{ duration: 0.25, ease: 'easeOut' }}
-            exit={{ opacity: 1 }}
+            initial={{ width: 0 }}
+            animate={{ width: '100%' }}
+            transition={{ duration: 1, ease: 'backInOut' }}
+            exit={{ x: '100%' }}
             className="min-w-full h-full bg-info-500 "
         >
             Projects

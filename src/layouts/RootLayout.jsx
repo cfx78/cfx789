@@ -1,25 +1,14 @@
 import { Outlet } from 'react-router-dom'
 import Navbar from '../components/Navbar/Navbar'
-import { motion as m, AnimatePresence } from 'framer-motion'
 
 function RootLayout() {
     return (
-        <m.div className="grid grid-cols-[min-content_auto]">
+        <div className="grid grid-cols-[min-content_auto]  bg-neutral-900 ">
             <Navbar />
-            <AnimatePresence>
-                <m.main
-                    key="main"
-                    initial={{ y: '100%' }}
-                    animate={{ y: '0%' }}
-                    transition={{ duration: 0.25, ease: 'easeOut' }}
-                    exit={{ opacity: 1 }}
-                    className=" relative"
-                >
-                    {' '}
-                    <Outlet />
-                </m.main>
-            </AnimatePresence>
-        </m.div>
+            <main className=" relative">
+                <Outlet />
+            </main>
+        </div>
     )
 }
 
