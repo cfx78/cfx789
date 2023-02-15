@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <div className="h-screen c border-4 border-accent-700/50  flex flex-col  inset-y-0 left-0 justify-around items-center rounded   border-y-8 border-y-accent-700/20 hover:border-primary-200 transition duration-150 ease-out hover:ease-in max-w-min">
+        <div className="h-screen c border-4 border-accent-700/50  flex flex-col  inset-y-0 left-0 justify-around items-center rounded   border-y-8 border-y-accent-700/20 hover:border-primary-200 transition duration-150 ease-out hover:ease-in max-w-min bg-neutral-900">
             <NavLink
                 to="/"
                 className="transition duration-150 ease-out
