@@ -1,7 +1,24 @@
+import { Route, Routes, useLocation } from 'react-router-dom'
 import React from 'react'
+import RootLayout from '../../layouts/RootLayout'
+import About from '../../pages/About/About'
+import Home from '../../pages/Home/Home'
+import Links from '../../pages/Links/Links'
+
+import Projects from '../../pages/Projects/Projects'
 
 const AnimatedRoutes = () => {
-    return <div>AnimatedRoutes</div>
+    const location = useLocation()
+    return (
+        <Routes>
+            <Route path="/" element={<RootLayout />}>
+                <Route index element={<Home />} />
+                <Route path="about" element={<About />} />
+                <Route path="projects" element={<Projects />} />
+                <Route path="links" element={<Links />} />
+            </Route>
+        </Routes>
+    )
 }
 
 export default AnimatedRoutes
