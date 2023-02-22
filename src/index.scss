@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './_sass/colors';
+
+body {
+    background-color: $black;
+    color: $white;
+}
+
+section {
+    padding: 10rem 1rem;
+    min-height: 100vh;
+}

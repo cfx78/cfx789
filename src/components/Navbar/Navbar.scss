@@ -1,0 +1,10 @@
+@import '../../_sass/colors';
+
+header {
+    background-color: $black;
+}
+nav a {
+    color: $white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
