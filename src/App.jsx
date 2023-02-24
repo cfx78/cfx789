@@ -8,7 +8,7 @@ function App() {
     return (
         <div>
             <Navbar />
-            <main className="grid grid-flow-row auto-rows-max w-full h-full">
+            <main className="container mx-auto w-full h-full ">
                 <Home />
                 <About />
                 <Projects />

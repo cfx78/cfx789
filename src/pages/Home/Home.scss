@@ -1,9 +1,22 @@
 @import '../../_sass/colors';
 
-#home h1 {
+.home p {
     font-family: 'PT Sans Caption', sans-serif;
-    font-weight: 700;
+    letter-spacing: 0.1rem;
 }
+
+.home h1,
+h2,
+h4,
+span {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
 .name {
     color: $primary;
+}
+
+.skills img {
+    width: 4rem;
 }
