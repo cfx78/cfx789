@@ -3,7 +3,7 @@ const About = () => {
     return (
         <section id="About">
             {' '}
-            <div className="bio text-xl ml-10 flex flex-col justify-end gap-11  ">
+            <div className="bio text-xl ml-10 flex flex-col justify-end gap-11 mt-16 ">
                 <h1 className="text-7xl text-center">About</h1>
                 <p className="text-start max-w-md mt-28">
                     I'm a passionate front end developer with ambition to create
