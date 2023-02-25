@@ -3,7 +3,7 @@ import './Home.scss'
 function Home() {
     const skills = []
     return (
-        <section className="grid home mt-24" id="Home">
+        <section className="grid place-items-center mt-16 home " id="Home">
             <div className="max-w-max mt-1 p-2 ml-3 flex flex-col gap-1 intro">
                 <h1 className="text-7xl text-start">
                     Hi, I'm <span className="name">Cortez Foxx</span> <br />
