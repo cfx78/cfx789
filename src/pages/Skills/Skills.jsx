@@ -49,10 +49,10 @@ const Skills = () => {
                             <img src="src\icons\react.svg" alt="react" />
                         </li>
                         <li>
-                            <img src="src\icons\sass.svg" alt="sass" />
+                            <img src="src\icons\tailwind.svg" alt="tailwind" />
                         </li>
                         <li>
-                            <img src="src\icons\tailwind.svg" alt="tailwind" />
+                            <img src="src\icons\sass.svg" alt="sass" />
                         </li>
                         <li>
                             <img src="src\icons\api.svg" alt="api" />
