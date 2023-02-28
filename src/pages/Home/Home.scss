@@ -5,18 +5,11 @@
     letter-spacing: 0.1rem;
 }
 
-.home h1,
-h2,
-h4,
-span {
+.home span {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
 }
 
 .name {
     color: $primary;
-}
-
-.skills img {
-    width: 5rem;
 }

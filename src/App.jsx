@@ -1,8 +1,10 @@
 import Navbar from './components/Navbar/Navbar'
 import About from './pages/About/About'
 import Home from './pages/Home/Home'
-import Links from './pages/Links/Links'
+import Contact from './pages/Links/Contact'
+
 import Projects from './pages/Projects/Projects'
+import Skills from './pages/Skills/Skills'
 
 function App() {
     return (
@@ -11,8 +13,9 @@ function App() {
             <main className="container mx-auto w-full h-full ">
                 <Home />
                 <About />
+                <Skills />
                 <Projects />
-                <Links />
+                <Contact />
             </main>
         </div>
     )
