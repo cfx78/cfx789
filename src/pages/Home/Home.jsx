@@ -1,7 +1,6 @@
 import './Home.scss'
 
 function Home() {
-    const skills = []
     return (
         <section
             className="flex justify-start items-center mt-11 home "

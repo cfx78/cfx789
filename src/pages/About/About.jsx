@@ -2,9 +2,9 @@ import './About.scss'
 const About = () => {
     return (
         <section id="About">
-            <div className="about text-xl flex flex-col gap-11 mt-16 justify-center ">
+            <div className="about text-xl flex flex-col gap-11 justify-center ">
                 <h1 className="text-7xl text-center">About</h1>
-                <div className="bio flex justify-around items-center mt-28 ">
+                <div className="bio flex justify-around items-center mt-12 ">
                     <p className="text-start  max-w-md tracking-widest ">
                         I'm a passionate front end developer with ambition to
                         create great products. Some of my hobbies include gaming
@@ -17,7 +17,7 @@ const About = () => {
                         look forward to the next step in my journey while
                         continuously growing as a developer.
                     </p>
-                    <div className="logo ">
+                    <div className="logo">
                         <img
                             className="w-72"
                             src="../../src/assets/Avatar.svg"
