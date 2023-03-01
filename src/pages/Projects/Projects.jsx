@@ -16,12 +16,23 @@ const Projects = () => {
                 Backlog
             </h4>
             <div className="flex justify-between gap-x-12 items-center">
-                <img
+                <div
+                    className="flex flex-col justify-center items-center"
                     data-aos="fade-right"
-                    className="w-72"
-                    src="../../src/assets/mockuper.png"
-                    alt="backlog app"
-                />
+                >
+                    <img
+                        className="w-72"
+                        src="../../src/assets/mockuper.png"
+                        alt="backlog app"
+                    />
+                    <a
+                        className="text-center border p-2"
+                        href="https://backlog-661fc.web.app/"
+                        target="_blank"
+                    >
+                        Try It Out Here!
+                    </a>
+                </div>
                 <p data-aos="fade-left" className="w-96">
                     An app designed with gamers in mind! Having trouble
                     remembering which game you need to play next? Backlog is
