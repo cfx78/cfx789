@@ -1,13 +1,21 @@
 import './Skills.scss'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 const Skills = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1500 })
+    }, [])
     return (
         <section id="Skills">
             {' '}
             <div className="about w-full h-full flex justify-center  items-center">
                 <div className="skills">
                     <h1 className="text-7xl text-center pb-28">Skills</h1>
-                    <ul className="flex justify-center max-w-4xl flex-wrap items-center gap-20">
+                    <ul
+                        data-aos="fade-up"
+                        className="flex justify-center max-w-4xl flex-wrap items-center gap-20"
+                    >
                         <li>
                             <img src="src\icons\vite.svg" alt="vite" />
                         </li>
