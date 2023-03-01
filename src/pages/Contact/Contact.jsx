@@ -1,15 +1,28 @@
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 const Contact = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1500 })
+    }, [])
     return (
-        <section className="flex flex-col" id="Contact">
-            <h1 className=" text-7xl text-center pb-24">Contact</h1>
-            <h4 className="text-2xl text-center mb-8">
+        <section
+            className="flex flex-col justify-center justify-items-center"
+            id="Contact"
+        >
+            <h1 className=" text-7xl text-center pb-24 mx-auto">Contact</h1>
+            <h4 className="text-2xl text-center mx-auto mb-8">
                 Feel free to drop me a line
                 <br />
                 <p className="text-center text-5xl text-white">&#65516;</p>
             </h4>
             <hr />
             <div className="mt-12 contact-container flex justify-around w-full">
-                <form className="pb-7 flex flex-col" action="">
+                <form
+                    data-aos="flip-down"
+                    className="pb-7 flex flex-col"
+                    action=""
+                >
                     <div className="inputs-container grid grid-cols-2 mt-12">
                         <div>
                             <div className="name-input grid grid-cols-1 gap-1 ">
