@@ -2,6 +2,7 @@ import './About.scss'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
+import avatar from '../../assets/Avatar.svg'
 const About = () => {
     useEffect(() => {
         Aos.init({ duration: 1500 })
@@ -31,7 +32,7 @@ const About = () => {
                         <img
                             data-aos="fade-left"
                             className="w-48 sm:w-72"
-                            src="../../src/assets/Avatar.svg"
+                            src={avatar}
                         />
                     </div>
                 </div>
