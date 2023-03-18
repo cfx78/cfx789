@@ -8,3 +8,9 @@ nav a {
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
 }
+
+@media only screen and (max-width: 600px) {
+    nav {
+        font-size: 1rem;
+    }
+}

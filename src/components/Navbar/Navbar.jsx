@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <header className="sticky top-0 z-50 w-full h-1/6 ">
             <nav className="flex flex-row justify-around align-middle p-3  ">
-                <div className="links flex flex-row justify-evenly align-middle gap-6 text-3xl">
+                <div className="links flex flex-row justify-evenly align-middle gap-6 sm:text-3xl">
                     <a
                         className=" hover:tracking-widest hover:underline hover:decoration-[#06bcc1]
                         active:text-[#06bcc1]
