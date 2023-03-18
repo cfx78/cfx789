@@ -1,4 +1,18 @@
 import './Skills.scss'
+import api from '../../icons/api.svg'
+import bootstrap from '../../icons/bootstrap.svg'
+import css from '../../icons/css.svg'
+import firebase from '../../icons/firebase.svg'
+import git from '../../icons/git.svg'
+import heroku from '../../icons/heroku.svg'
+import html from '../../icons/html.svg'
+import javascript from '../../icons/javascript.svg'
+import node from '../../icons/node.svg'
+import npm from '../../icons/npm.svg'
+import react from '../../icons/react.svg'
+import sass from '../../icons/sass.svg'
+import tailwind from '../../icons/tailwind.svg'
+import vite from '../../icons/vite.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
@@ -17,53 +31,47 @@ const Skills = () => {
                         className="flex justify-center max-w-4xl flex-wrap items-center gap-20"
                     >
                         <li>
-                            <img src="src\icons\vite.svg" alt="vite" />
+                            <img src={vite} alt="vite" />
                         </li>
 
                         <li>
-                            <img src="src\icons\firebase.svg" alt="firebase" />
+                            <img src={firebase} alt="firebase" />
                         </li>
                         <li>
-                            <img src="src\icons\git.svg" alt="git" />
+                            <img src={git} alt="git" />
                         </li>
                         <li>
-                            <img src="src\icons\node.svg" alt="node" />
+                            <img src={node} alt="node" />
                         </li>
                         <li>
-                            <img src="src\icons\npm.svg" alt="npm" />
+                            <img src={npm} alt="npm" />
                         </li>
                         <li>
-                            <img src="src\icons\heroku.svg" alt="heroku" />
+                            <img src={heroku} alt="heroku" />
                         </li>
                         <li>
-                            <img src="src\icons\css.svg" alt="css" />
+                            <img src={css} alt="css" />
                         </li>
                         <li>
-                            <img
-                                src="src\icons\bootstrap.svg"
-                                alt="bootstrap"
-                            />
+                            <img src={bootstrap} alt="bootstrap" />
                         </li>
                         <li>
-                            <img
-                                src="src\icons\javascript.svg"
-                                alt="javascript"
-                            />
+                            <img src={javascript} alt="javascript" />
                         </li>
                         <li>
-                            <img src="src\icons\html.svg" alt="html" />
+                            <img src={html} alt="html" />
                         </li>
                         <li>
-                            <img src="src\icons\react.svg" alt="react" />
+                            <img src={react} alt="react" />
                         </li>
                         <li>
-                            <img src="src\icons\tailwind.svg" alt="tailwind" />
+                            <img src={tailwind} alt="tailwind" />
                         </li>
                         <li>
-                            <img src="src\icons\sass.svg" alt="sass" />
+                            <img src={sass} alt="sass" />
                         </li>
                         <li>
-                            <img src="src\icons\api.svg" alt="api" />
+                            <img src={api} alt="api" />
                         </li>
                     </ul>
                 </div>
