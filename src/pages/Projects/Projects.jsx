@@ -6,16 +6,16 @@ const Projects = () => {
         Aos.init({ duration: 1500 })
     }, [])
     return (
-        <section className="grid place-items-center" id="Projects">
-            <h1 className="text-7xl text-center mb-9">Projects</h1>
+        <section className="grid place-content-center" id="Projects">
+            <h1 className="text-7xl text-center sm:mb-28">Projects</h1>
             <br />
             <h4
                 data-aos="fade-in"
-                className="text-4xl mb-5 underline underline-offset-2 decoration-[#fffcff]"
+                className="text-4xl mb-20 text-center underline underline-offset-2 decoration-[#fffcff]"
             >
                 Backlog
             </h4>
-            <div className="flex justify-between gap-x-12 items-center">
+            <div className="flex justify-between sm:gap-x-12 items-center">
                 <div
                     className="flex flex-col justify-center items-center"
                     data-aos="fade-right"
@@ -33,7 +33,7 @@ const Projects = () => {
                         Try It Out Here!
                     </a>
                 </div>
-                <p data-aos="fade-left" className="w-96">
+                <p data-aos="fade-left" className=" w-80 sm:w-96 text-sm">
                     An app designed with gamers in mind! Having trouble
                     remembering which game you need to play next? Backlog is
                     here to help!

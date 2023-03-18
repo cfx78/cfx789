@@ -9,12 +9,12 @@ const About = () => {
 
     return (
         <section id="About">
-            <div className="about text-xl flex flex-col gap-11 justify-center ">
-                <h1 className="text-7xl text-center">About</h1>
-                <div className="bio flex justify-around items-center mt-12 ">
+            <div className="about text-xl flex flex-col sm:gap-11 justify-center ">
+                <h1 className="text-7xl sm:mt-48 text-center">About</h1>
+                <div className="bio flex sm:justify-around items-center sm:mt-12 ">
                     <p
                         data-aos="fade-right"
-                        className="text-start  max-w-md tracking-widest "
+                        className="text-start  sm:max-w-md tracking-widest "
                     >
                         I'm a passionate front end developer with ambition to
                         create great products. Some of my hobbies include gaming
@@ -30,7 +30,7 @@ const About = () => {
                     <div className="logo">
                         <img
                             data-aos="fade-left"
-                            className="w-72"
+                            className="w-48 sm:w-72"
                             src="../../src/assets/Avatar.svg"
                         />
                     </div>

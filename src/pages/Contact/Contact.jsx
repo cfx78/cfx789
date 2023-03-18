@@ -1,3 +1,4 @@
+import './Contact.scss'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
@@ -10,20 +11,22 @@ const Contact = () => {
             className="flex flex-col justify-center justify-items-center"
             id="Contact"
         >
-            <h1 className=" text-7xl text-center pb-24 mx-auto">Contact</h1>
-            <h4 className="text-2xl text-center mx-auto mb-8">
+            <h1 className="w-full text-7xl text-center pb-24 mx-auto">
+                Contact
+            </h1>
+            <h4 className="w-full text-2xl text-center mx-auto mb-8">
                 Feel free to drop me a line
                 <br />
                 <p className="text-center text-5xl text-white">&#65516;</p>
             </h4>
             <hr />
-            <div className="mt-12 contact-container flex justify-around w-full">
+            <div className="mt-12 contact-container flex justify-around sm:w-full">
                 <form
                     data-aos="flip-down"
                     className="pb-7 flex flex-col"
                     action=""
                 >
-                    <div className="inputs-container grid grid-cols-2 mt-12">
+                    <div className="inputs-container grid sm:grid-cols-2 mt-12">
                         <div>
                             <div className="name-input grid grid-cols-1 gap-1 ">
                                 <label
