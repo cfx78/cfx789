@@ -24,7 +24,8 @@ const Contact = () => {
                 <form
                     data-aos="flip-down"
                     className="pb-7 flex flex-col"
-                    action=""
+                    action="https://nocodeform.io/f/64237f3d64d5fef6e3c94d6d"
+                    method="POST"
                 >
                     <div className="inputs-container grid sm:grid-cols-2 mt-12">
                         <div>

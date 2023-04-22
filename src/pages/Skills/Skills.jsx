@@ -13,6 +13,8 @@ import react from '../../icons/react.svg'
 import sass from '../../icons/sass.svg'
 import tailwind from '../../icons/tailwind.svg'
 import vite from '../../icons/vite.svg'
+import next from '../../icons/next.svg'
+import sanity from '../../icons/sanity.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
@@ -72,6 +74,14 @@ const Skills = () => {
                         </li>
                         <li>
                             <img src={api} alt="api" />
+                        </li>
+                        <li>
+                            {' '}
+                            <img src={next} alt="next" />
+                        </li>
+                        <li>
+                            {' '}
+                            <img src={sanity} alt="sanity" />
                         </li>
                     </ul>
                 </div>

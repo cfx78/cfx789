@@ -9,7 +9,7 @@ function Home() {
 
     return (
         <section
-            className="sm:flex justify-start items-center sm:mt-11 home "
+            className="sm:flex justify-start items-center ,lg:mt-11 md:h-fit home mt-32 md:mt-0"
             id="Home"
         >
             <div
@@ -21,7 +21,7 @@ function Home() {
                 </h1>
                 <br />
                 <h2 className="text-4xl text-center mt-5  sm:text-end underline underline-offset-4 decoration-[#06bcc1]">
-                    Front-End Developer
+                    React Developer
                 </h2>
             </div>
         </section>
