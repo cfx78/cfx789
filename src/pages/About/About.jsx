@@ -15,7 +15,7 @@ const About = () => {
                 <div className="bio flex sm:justify-around items-center sm:mt-12 ">
                     <p
                         data-aos="fade-right"
-                        className="text-start  sm:max-w-md tracking-widest "
+                        className="text-center md:text-start  sm:max-w-md tracking-widest "
                     >
                         I'm a passionate front end developer with ambition to
                         create great products. Some of my hobbies include gaming

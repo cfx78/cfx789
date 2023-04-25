@@ -2,7 +2,7 @@ import React from 'react'
 
 const Project = (props) => {
     return (
-        <div>
+        <div className="">
             {' '}
             <h4
                 data-aos="fade-in"

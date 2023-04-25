@@ -15,18 +15,17 @@ const Projects = () => {
     }, [])
     return (
         <section className="grid place-content-center" id="Projects">
-            <h1 className="text-7xl text-center sm:mb-28">
+            <h1 className="text-7xl pb-11 md:pb-0 text-center sm:mb-28">
                 Projects
                 <br />
                 <small className="text-base">⭐ = latest project</small>
             </h1>
 
-            <br />
             <Project
                 siteTitle="This Very Site!"
                 imgFadeDirection="fade-left"
                 pFadeDirection="fade-right"
-                flexDirection="flex-row-reverse"
+                flexDirection="flex flex-col gap-20 md:gap-10 md:flex-row-reverse"
                 siteHref="https://cfx-789.netlify.app/"
                 siteImg={cfx789}
                 siteDescription={<CFX789 />}
@@ -35,17 +34,17 @@ const Projects = () => {
                 siteTitle="Backlog"
                 imgFadeDirection="fade-right"
                 pFadeDirection="fade-left"
-                flexDirection="flex-row"
+                flexDirection="flex flex-col gap-20 md:gap-10 md:flex-row"
                 siteHref="https://backlog-661fc.web.app/"
                 siteImg={backlog}
                 siteDescription={<Backlog />}
             />
-            <span>⭐</span>
+            <span className="text-center">⭐</span>
             <Project
                 siteTitle="Random Reviews"
                 imgFadeDirection="fade-left"
                 pFadeDirection="fade-right"
-                flexDirection="flex-row-reverse"
+                flexDirection="flex flex-col gap-20 md:gap-10 md:flex-row-reverse"
                 siteHref="https://random-reviews-blog.vercel.app/"
                 siteImg={randomReviews}
                 siteDescription={<RandomReviews />}
