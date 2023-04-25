@@ -9,9 +9,11 @@ const Backlog = () => {
             game, the user can then add the game to their own database.
             <br />
             <br />
-            This project was built with React and features log in capabilities,
-            all CRUD actions, as well as the use of backend databases such as
-            Firebase.
+            This project was built with <span>React</span>,{' '}
+            <span>Bootstrap</span>, the RAWG <span>API</span>, and features{' '}
+            <span>log in capabilities</span>, <span>all CRUD actions</span> , as
+            well as the use of <span>Firebase</span> for the database and
+            deployment.
         </p>
     )
 }

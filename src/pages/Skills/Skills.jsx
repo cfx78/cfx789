@@ -42,15 +42,11 @@ const Skills = () => {
                         <li>
                             <img src={git} alt="git" />
                         </li>
-                        <li>
-                            <img src={node} alt="node" />
-                        </li>
+
                         <li>
                             <img src={npm} alt="npm" />
                         </li>
-                        <li>
-                            <img src={heroku} alt="heroku" />
-                        </li>
+
                         <li>
                             <img src={css} alt="css" />
                         </li>
