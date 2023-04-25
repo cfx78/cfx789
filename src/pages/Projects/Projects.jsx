@@ -25,7 +25,7 @@ const Projects = () => {
                 siteTitle="This Very Site!"
                 imgFadeDirection="fade-left"
                 pFadeDirection="fade-right"
-                flexDirection="flex flex-col gap-20 md:gap-10 md:flex-row-reverse"
+                flexDirection="flex flex-col gap-20 md:gap-10 md:flex-row-reverse text-center md:text-start"
                 siteHref="https://cfx-789.netlify.app/"
                 siteImg={cfx789}
                 siteDescription={<CFX789 />}
@@ -34,7 +34,7 @@ const Projects = () => {
                 siteTitle="Backlog"
                 imgFadeDirection="fade-right"
                 pFadeDirection="fade-left"
-                flexDirection="flex flex-col gap-20 md:gap-10 md:flex-row"
+                flexDirection="flex flex-col gap-20 md:gap-10 md:flex-row text-center md:text-start"
                 siteHref="https://backlog-661fc.web.app/"
                 siteImg={backlog}
                 siteDescription={<Backlog />}
@@ -44,7 +44,7 @@ const Projects = () => {
                 siteTitle="Random Reviews"
                 imgFadeDirection="fade-left"
                 pFadeDirection="fade-right"
-                flexDirection="flex flex-col gap-20 md:gap-10 md:flex-row-reverse"
+                flexDirection="flex flex-col gap-20 md:gap-10 md:flex-row-reverse text-center md:text-start"
                 siteHref="https://random-reviews-blog.vercel.app/"
                 siteImg={randomReviews}
                 siteDescription={<RandomReviews />}
